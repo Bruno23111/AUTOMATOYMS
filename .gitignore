@@ -1,0 +1,37 @@
+## Erros e Builds do .NET
+[Bb]in/
+[Oo]bj/
+out/
+.vs/
+.vscode/
+
+## Arquivos de usuário e caches
+*.user
+*.userosscache
+*.sln.docstates
+
+## Pacotes NuGet
+*.nupkg
+*.snupkg
+# As pastas de pacotes costumam ser restauradas automaticamente
+node_modules/
+.nuget/
+packages/
+
+## Log de ambiente e segredos
+.env
+.env.*
+appsettings.Development.json
+secrets.json
+
+## Logs de sistema e arquivos temporários
+*.log
+.DS_Store
+Thumbs.db
+
+## Rider / JetBrains
+.idea/
+
+## Publicação
+*.publish.xml
+publish/

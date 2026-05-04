@@ -1,0 +1,6 @@
+@YmsAutomato_HostAddress = http://localhost:5034
+
+GET {{YmsAutomato_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
